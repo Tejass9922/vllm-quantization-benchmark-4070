@@ -1,9 +1,9 @@
 # vLLM Quantization Bake-off (RTX 4070)
 
-Single-GPU, single-machine project to understand inference trade-offs on constrained VRAM:
+Single-GPU, single-machine project to profile inference trade-offs on constrained VRAM:
 **FP16 vs BitsAndBytes INT8 vs BitsAndBytes INT4** using **vLLM** as the serving engine.
 
-You will:
+
 1) Launch an OpenAI-compatible vLLM server for each variant.
 2) Run an async benchmark against it (TTFT, latency p50/p95, tokens/sec).
 3) Sample peak VRAM via `nvidia-smi`.
