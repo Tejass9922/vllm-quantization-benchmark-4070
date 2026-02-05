@@ -1,0 +1,12 @@
+model: Qwen/Qwen2.5-3B-Instruct
+host: 0.0.0.0
+port: 8000
+dtype: auto
+max_model_len: 4096
+gpu_memory_utilization: 0.90
+max_num_seqs: 64
+
+gen:
+  max_tokens: 256
+  temperature: 0.2
+  top_p: 0.95
