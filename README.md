@@ -62,6 +62,6 @@ Edit `configs/model.yaml`:
 - `scripts/serve.sh` — launch vLLM OpenAI server for a variant (fp16, bnb8, bnb4)
 - `bench/bench.py` — async streaming benchmark client + metrics
 - `bench/prompts.jsonl` — prompt set for benchmarking (editable)
-- `bench/quality_check.py` — small deterministic “sanity quality” check
+- `bench/quality_check.py` — deterministic quality check
 - `scripts/report.py` — builds `results/report.md` from JSON
 - `scripts/nvidia_smi_sample.py` — standalone VRAM sampler
